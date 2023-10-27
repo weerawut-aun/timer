@@ -1,0 +1,40 @@
+body {
+  background: orange;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  width: 800px;
+  color: white;
+  margin: 30px auto;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.7em;
+  font-weight: 100;
+}
+
+#secounds,
+#tens {
+  font-size: 2rem;
+}
+
+button {
+  background-color: orange;
+  border: 1px solid white;
+  color: white;
+  padding: 18px 10px;
+  font-size: 1.2rem;
+  width: 180px;
+  margin: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  border: 1px solid orange;
+  color: orange;
+}
